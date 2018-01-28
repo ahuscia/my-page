@@ -1,2 +1,2 @@
 # my-page
-https://github.com/ahuscia/my-page/settings/branches
+https://ahuscia.github.io/my-page/
