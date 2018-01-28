@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
-* {
-    box-sizing: border-box;
+body {
+    margin: 0;
 }
-
 .container {
     max-width: 100%;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    
 }
 $peach-pink: #F0433A;
 
@@ -34,4 +34,9 @@ $peach-pink: #F0433A;
         justify-content: center;
         padding: 15px;
     }
+}
+footer {
+    font-family: 'Poppins', sans-serif;
+    color: $peach-pink;
+    padding: 10px;
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
-* {
-  box-sizing: border-box; }
+body {
+  margin: 0; }
 
 .container {
   max-width: 100%;
@@ -27,5 +27,10 @@
     max-width: 60%;
     justify-content: center;
     padding: 15px; }
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  color: #F0433A;
+  padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
