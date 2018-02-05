@@ -6,11 +6,13 @@ body {
 .container {
   max-width: 100%;
   font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .title {
-  background-color: blue;
+  background-color: black;
   padding: 15px;
   margin: 0;
 }
@@ -34,7 +36,9 @@ body {
   color: #F0433A;
   font-size: 20px;
   max-width: 60%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 15px;
 }
 
@@ -43,5 +47,4 @@ footer {
   color: #F0433A;
   padding: 11px;
 }
-
 /*# sourceMappingURL=style.css.map */
